@@ -3,7 +3,7 @@
 ### A one-click user-friendly pipeline to annotate structural variants with transposable element information
 #### Hackathon team: Michal Izydorczyk, Thomas Garcia, John Adedeji, Wai Yee (Nicola) Wong, Julian Chiu,  Quang Tran
 
-TRACE is a pipeline designed to annotate structural variants (SV) with transposable element (TE) information and generate both an annotated VCF and a human-readable summary report.
+TRACE (**T**ransposable element **R**ecognition **A**nd **C**omprehensive **E**valuation) is a pipeline designed to annotate structural variants (SV) with transposable element (TE) information and generate both an annotated VCF and a human-readable summary report.
 
 ## TRACE Workflow
 ![TRACE Workflow](assets/TRACE_workflow.png "TRACE Workflow")
@@ -20,6 +20,7 @@ Reference FASTA: GCA_000001405.15_GRCh38_no_alt_analysis_set.fasta
 - BAM/CRAM files
 - Reference genome (FASTA)
 - Optional: pre-existing SV VCF
+- Optional: FASTQ for alignment
 
 ## Outputs
 - Annotated VCF with TE fields
