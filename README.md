@@ -6,7 +6,7 @@
 TRACE is a pipeline designed to annotate structural variants (SV) with transposable element (TE) information and generate both an annotated VCF and a human-readable summary report.
 
 ## TRACE Workflow
-<img width="6480" height="2016" alt="image" src="https://github.com/user-attachments/assets/dd4f9e96-455c-4add-a9e9-91d00950f663" />
+![TRACE Workflow](assets/TRACE_workflow.png "TRACE Workflow")
 
 ## Workflow method
 
