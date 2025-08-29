@@ -127,7 +127,7 @@ def main():
             print(f"✓ {filename}: {size_mb:.1f} MB")
         else:
             # Check in parent directory
-            parent_path = Path("/home/prom_old/transposon") / filename
+            parent_path = Path("../") / filename
             if parent_path.exists():
                 size_mb = parent_path.stat().st_size / (1024 * 1024)
                 print(f"⚠ {filename}: Found in parent directory ({size_mb:.1f} MB)")
