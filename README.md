@@ -4,7 +4,7 @@ A comprehensive one-click user-friendly pipeline for annotating structural varia
 
 **Hackathon team**: Michal Izydorczyk, Thomas X. Garcia, John Adedeji, Wai Yee (Nicola) Wong, Julian Chiu
 
-presentation for v1.0: [Hackaton 2025 TRACE]([https://docs.google.com/presentation/d/16YswBMoNMfBRl4ghd0mH6T2pdR_yx6AWvpaj-cF_t-M/edit?slide=id.g38535c6ce44_0_23#slide=id.g38535c6ce44_0_23](https://docs.google.com/presentation/d/16YswBMoNMfBRl4ghd0mH6T2pdR_yx6AWvpaj-cF_t-M/edit?usp=sharing))
+presentation for v1.0: [Hackaton 2025 TRACE](https://docs.google.com/presentation/d/16YswBMoNMfBRl4ghd0mH6T2pdR_yx6AWvpaj-cF_t-M/edit?usp=sharing)
 
 ## Overview
 
