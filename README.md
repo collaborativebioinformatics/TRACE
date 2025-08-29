@@ -8,9 +8,7 @@ A comprehensive one-click user-friendly pipeline for annotating structural varia
 
 Structural variations (SVs) are a major source of genomic variation and can exert significant effects on gene regulation, genome integrity, and disease susceptibility. Recent advances in long-read sequencing technologies have substantially improved the resolution and accuracy of SV detection, enabling the identification of previously inaccessible variant types. Transposable elements (TEs) represent an important subset of SVs, contributing to genomic rearrangements and regulatory alterations across diverse biological contexts.
 
-We present **TRACE** (**T**ransposable element **R**ecognition **A**nd **C**omprehensive **E**valuation), an integrated and user-friendly pipeline designed to annotate structural variants (SVs) with transposable element (TE) information. TRACE incorporates RepeatMasker within a streamlined workflow compatible with commonly used SV callers, such as Sniffles2, and produces both parseable, annotated VCF files and comprehensive statistical summaries to facilitate downstream analyses.
-
-TRACE processes structural variant VCF files (from Sniffles or similar SV callers) to identify and annotate transposable element content within insertions, deletions, duplications, and other structural variants. The pipeline combines RepeatMasker analysis for insertion sequences with genomic intersection analysis for other SV types.
+We present **TRACE** (**T**ransposable element **R**ecognition **A**nd **C**omprehensive **E**valuation), an integrated and user-friendly pipeline designed to annotate structural variant VCF files (from Sniffles or similar SV callers) to identify and annotate transposable element content within insertions, deletions, duplications, and other structural variants. The pipeline combines RepeatMasker analysis for insertion sequences with genomic intersection analysis for other SV types.
 
 ## Pipeline Workflow
 
