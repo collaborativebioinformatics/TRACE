@@ -151,8 +151,11 @@ python TRACE.py input.vcf \
 
 ## Pipeline Components
 
+### 0. TRACE.py
+Master orchestrator that handles the below scripts, RepeatMasker, and BedTools Intersect. 
+
 ### 1. vcf2fasta.py
-Extracts insertion sequences from VCF files and converts them to FASTA format for RepeatMasker analysis.
+Extracts insertion sequences from VCF files and converts them to FASTA format for subsequent RepeatMasker analysis.
 
 ### 2. out2bed.py
 Converts RepeatMasker output to BED format for downstream processing.
@@ -164,7 +167,7 @@ Consolidates multiple RepeatMasker annotations per variant into single rows with
 Converts structural variants (DEL, DUP, BND) from VCF to BED format with enhanced BND parsing.
 
 ### 5. bed_processor.py
-Processes BED files by extending deletion coordinates and creating flanking regions for duplications/inversions.
+Processes BED files by extending deletion coordinates and creating flanking regions for duplications/inversions prior to BedTools Intersect handled by TRACE.py.
 
 ### 6. squash_intersect.py
 Consolidates multiple intersection results per variant into single rows with comma-delimited fields.
