@@ -283,7 +283,7 @@ The TRACE pipeline handles environment switching automatically when calling Repe
 If you use TRACE in your research, please cite:
 
 ```
-[Your publication information here]
+[Pending]
 ```
 
 Additionally, please cite the tools used by TRACE:
