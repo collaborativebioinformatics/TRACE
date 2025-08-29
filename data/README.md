@@ -56,5 +56,4 @@ Convert these to BED format using the same procedure as for hg38.
 
 - Large reference files are not included in the repository
 - Users must download appropriate reference files for their organism
-- The hg38.fa.bed file is available at: `/home/prom_old/transposon/hg38.fa.bed`
 - Custom repeat libraries can be created using RepeatModeler or obtained from species-specific databases
