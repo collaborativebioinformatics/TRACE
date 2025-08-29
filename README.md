@@ -1,4 +1,4 @@
-# TRACE - Transposable element Recognition And Comprehensive Evaluation
+# TRACE - Transposable Element Recognition and Comprehensive Evaluation
 
 A comprehensive one-click user-friendly pipeline for annotating structural variants with transposable element information.
 
