@@ -1,0 +1,76 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+.venv
+
+# RepeatMasker output
+repeatmasker_output/
+repeatmasker_output2/
+*.out
+*.tbl
+*.masked
+*.cat
+*.cat.gz
+*.align
+
+# Intermediate files
+*.fasta
+*.fa
+*.bed
+*.tsv
+!data/*.bed
+!data/*.tsv
+
+# Large reference files
+data/*.bed
+data/*.lib
+data/*.fasta
+data/*.fa
+hg38.fa.bed
+*.fa.out
+*.fa.out.gz
+
+# VCF files (keep example/test files)
+*.vcf
+*.vcf.gz
+*.vcf.gz.tbi
+!test/*.vcf
+!examples/*.vcf
+
+# BAM/SAM files
+*.bam
+*.bai
+*.sam
+*.cram
+*.crai
+
+# SNF files (Sniffles)
+*.snf
+
+# Log files
+*.log
+TRACE_pipeline_*.log
+
+# IDE and system files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Test output
+test_output/
+temp/
+tmp/
+
+# Documentation build
+docs/_build/
+docs/_static/
+docs/_templates/

@@ -1,0 +1,28 @@
+# TRACE Pipeline Requirements
+# Python 3.10+ required
+
+# Core dependencies
+argparse
+pathlib
+logging
+
+# Note: Additional tools require separate conda environments:
+# 
+# RepeatMasker environment:
+# - numpy==1.24.3
+# - h5py
+# - perl
+# - RepeatMasker binary
+# - RMBlast
+# - TRF (Tandem Repeat Finder)
+#
+# Sniffles environment (for SV calling):
+# - sniffles>=2.6.3
+# - numpy>=2.2.0
+# - pysam>=0.21.0
+# - edlib>=1.3.9
+# - psutil>=5.9.4
+# - samtools
+#
+# System requirements:
+# - bedtools>=2.31.0 (install via: conda install -c bioconda bedtools)
